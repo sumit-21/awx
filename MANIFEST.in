@@ -18,7 +18,7 @@ recursive-include docs/licenses *
 recursive-exclude awx devonly.py*
 recursive-exclude awx/api/tests *
 recursive-exclude awx/main/tests *
-recursive-exclude awx/ui/client *
+recursive-include awx/ui/client *
 recursive-exclude awx/settings local_settings.py*
 include tools/scripts/request_tower_configuration.sh
 include tools/scripts/request_tower_configuration.ps1
